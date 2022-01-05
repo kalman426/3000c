@@ -16,3 +16,10 @@ print("negyedik feladat")
 
 m = pow(sum(lista) % len(lista), 2)
 print(m)
+
+print("hatodik feladat")
+m=0
+for i in lista:
+    if i % 9== 0:
+        m+=1
+print(m)
