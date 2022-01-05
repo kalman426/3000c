@@ -23,3 +23,16 @@ for i in lista:
     if i % 9== 0:
         m+=1
 print(m)
+
+print("nyolcadik feladat")
+print(len(lista))
+
+print("tizedik feladat")
+m = lista[0]
+for i in lista[1:]:
+    if i < m:
+        m = i
+
+print(m / 2)
+
+
